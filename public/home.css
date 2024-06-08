@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+  /* -------NAVBAR-------- */
+.navbar-brand{
+    font-size: 2rem;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-link{
+    color: rgb(12, 12, 65);
+}
+.nav-link:hover{
+    color: red;
+    transition: 0.4s;
+}
+.nav-item{
+    color:blue rgb(7,7,78);
+    font-weight: 500;
+    padding-left: 35px;
+}
+.btn0{
+    height: 52px;
+    width: 130px;
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.4s;
+    background-color: rgb(248, 82, 83);
+}
+.btn0:hover{
+    background: rgb(214, 11, 11);
+    transition: all 0.4s;
+}
+.btn1{
+    height: 52px;
+    width: 130px;
+    background-color: transparent;
+    transition: all 0.4s;
+    color: rgb(248, 20, 20);
+    border: 2px solid  rgb(248, 20, 20);
+}
+.btn5{
+    text-decoration: none;
+    color:  red;
+}
+.btn5:hover{
+    color: white;
+}
+.btn1:hover{
+    background-color: rgb(248, 11,11);
+    transition: all 0.4s;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+/* ======================== MAIN SECTION ======================================= */
+.main{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_Nhpu7aAjdLo4ITcMo2Ov8kqSflRswFwOg&usqp=CAU)no-repeat;
+    background-size: cover;
+    min-height: 95vh;
+    width: 100%;
+}
+.main h1{
+    font-size: 4rem;
+    font-weight: 800;
+    color: rgb(7,7,78);
+}
+.main input{
+    height: 71px;
+    width: 70%;
+    border: none;
+    outline: none;
+    padding: 15px;
+}
+.btn2{
+    height: 70px;
+    width: 25%;
+    background-color: rgb(248, 82, 83);
+    color:  white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.4s;
+    margin-left: -4px;
+}
+.btn2:hover{
+    background-color: rgb(214, 11, 11);
+    transition: all 0.4s;
+}
+.red{
+    color: red;
+}
+.ceta h1{
+    font-size: 3.5rem;
+    color: rgb(12, 12, 1);
+}
+.ceta .card:hover{
+    color: red;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+}
+.btn3{
+    height: 70px;
+    width: 70%;
+    border: 1px solid rgb(130,130,231);
+    background: transparent;
+    border-radius: 5px;
+    color: rgb(130,130,231) ;
+    transition: all 0.5s;
+}
+.btn3:hover{
+    background-color:  rgb(130,130,231) ;
+    color: white;
+    border: none;
+    outline:none;
+    transition:all 0.5s;
+}
+/* ====================================================================== */
+.resume{
+    background:linear-gradient(rgba(4,11,75,0.719),rgb(4,26,100,0.73)), url(https://rare-gallery.com/thumbs/5394408-sunset-sunrise-person-phone-man-sky-cloud-sun-light-orange-hill-using-phone-black-me-model-photography-street-random-amazing-blur-free-images.jpg)no-repeat;
+    background-size:cover ;
+    height: 90vh;
+    width: 100%;
+}
+.resume h1{
+    font-size: 3.8rem;
+}
+.job h1{
+    font-size: 3.5rem;
+    color: rgb(7,7,78);
+}
+.btn4{
+    height:60px;
+    width: 30%;
+    outline: none;
+    border: none;
+    background: rgb(248, 73,73) ;
+}
+.btn4:hover{
+    background-color: rgb(248, 11,11);
+    transition: all 0.4s;
+    color: white;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.apply{
+   background: linear-gradient(rgba(120, 124, 161, 0.719),rgba(126, 145, 207, 0.73)), url(image_optimzation.jpg)no-repeat;
+   background-size: cover;
+   /* min-height: 110vh; */
+   border-image-width: 100%;
+}
+.apply .card{
+        background-color: rgba(4, 26, 100, 0.801);
+        color: white;
+}
+.cirl{
+    height: 100px;
+    width: 100px;
+    background: white;
+    border-radius: 50%;
+    display: inline-block;
+}
+.cirl img{
+    border-radius: 50%;
+}
+.footer{
+    background-color: #121626;
+    color: white;
+}
+.footer p{
+    margin: 0;
+    color: #69696b;
+}
+.link{
+    color: #6b6b72;
+    transition: all 0.4s;
+}
+.link:hover{
+    color: #ff2962;
+    padding-left: 10px;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+.footer input{
+    height: 45px;
+    width: 70%;
+    padding: 10px 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.footer button{
+    height: 45px;
+    width: 20%;
+    outline: none;
+    border: none;
+    margin-left: -12px;
+    border-top: 1px solid #ff2962;
+    background: #ff2962;
+    color: white;
+    margin-top: 40px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Login</title>
+</head>
+
+<body style="background-color: rgb(255, 138, 138);">
+    <div class="container">
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header" style="font-weight: bold; letter-spacing: 2px;font-size:larger">
+                        Update User</div>
+                    <div class="card-body">
+                        <form action="/admin/update/{{data.email}}" method="post">
+                            <div class="form-group">
+                                <label for="username">Username</label>
+                                <input type="text" class="form-control" id="username" name="username" required value={{data.username}} {{data.username}}>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" class="form-control" id="email" required name="email" value={{data.email}} {{data.email}} >
+                            </div>
+                            <p style="margin-left: 5px; color: rgb(255, 5, 5);">{{emailsexist}}</p>
+                            <button type="submit" class="btn btn-danger">Update</button>
+                        </form>
+                       
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
